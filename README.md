@@ -14,9 +14,10 @@ Copy file `.env.example` to `.env`
 
 Global variables such as server port or token secret or credential database can be set in `.env`
 
-## Migration database
+## Start the app
 ``` bash
-db-migrate up
+# start the server
+npm start
 ```
 
 ## Features
@@ -24,8 +25,7 @@ db-migrate up
 Before running the application, you can perform a database migration automatically with the command below:
 
 ``` bash
-# start the server
-npm start
+db-migrate up
 ```
 ### Restful API
 An api with the following routes
